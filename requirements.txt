@@ -1,0 +1,7 @@
+PyQt5
+pyqtgraph
+pyserial
+numpy
+pytest
+PyOpenGL 
+PyOpenGL_accelerate
