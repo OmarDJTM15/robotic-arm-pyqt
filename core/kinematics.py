@@ -1,7 +1,7 @@
 import math
 
 class IK3DOF:
-    def __init__(self, l1=20.0, l2=14.0):
+    def __init__(self, l1=16.0, l2=12.0):
         self.l1 = l1
         self.l2 = l2
 

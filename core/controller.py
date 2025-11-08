@@ -12,7 +12,7 @@ class ArmController:
         self.angles_deg = {
             "base": 90,
             "shoulder": 0,
-            "elbow": -45,
+            "elbow": 90,
             "forearm": 90,
             "grip": 90
         }
@@ -20,8 +20,8 @@ class ArmController:
         # Límites seguros (°)
         self.limits = {
             "base": (0, 180),
-            "shoulder": (15, 120),
-            "elbow": (30, 150),
+            "shoulder": (0, 180),
+            "elbow": (0, 180),
             "forearm": (0, 180),
             "grip": (30, 150)
         }
